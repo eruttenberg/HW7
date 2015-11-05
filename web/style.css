@@ -1,0 +1,17 @@
+
+body{ background-color: #D2B48C;}
+
+h1{margin: auto; padding-bottom: 10px;}
+
+form{ width: 550px; margin: auto;}
+
+input[readonly] {background-color: lightgray;}
+
+input{display: block; border: 1px solid black;}
+
+table{border: 1px solid black;}
+
+tr{background-color:#F08080; color : #FFFFFF;}
+
+th{background-color:#FFFF99 ; color: #696969; border : 1px solid black;}
+
