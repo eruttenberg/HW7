@@ -7,19 +7,25 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Movies</title>
     </head>
-    
-    <% String table = (String) request.getAttribute("table"); %>
-    
+
+    <% String table = (String) request.getAttribute("table");%>
+
     <body>
-        <h1>Movies to Watch</h1>
-        
-        
-        <%= table %>
-        
-        <br><br>
-        
-        
-        <a href ="add"> Add A New Movie</a>
-        
+        <div class="wrap">
+
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class ="main">
+
+                <h1>Movies to Watch</h1>
+
+                <%= table%>
+
+            </div>
+            <%@ include file= "includes/footer.jsp"%>
+
+        </div>
     </body>
 </html>
